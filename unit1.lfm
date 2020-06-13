@@ -1,0 +1,56 @@
+object Form1: TForm1
+  Left = 256
+  Height = 375
+  Top = 145
+  Width = 599
+  Caption = 'Lazarus'
+  ClientHeight = 375
+  ClientWidth = 599
+  LCLVersion = '2.0.8.0'
+  object Label1: TLabel
+    Left = 104
+    Height = 65
+    Top = 8
+    Width = 372
+    Caption = 'LAZARUS WINS'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -48
+    Font.Name = 'Segoe UI Black'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 32
+    Height = 25
+    Top = 336
+    Width = 536
+    Caption = 'OK'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Image1: TImage
+    Left = 104
+    Height = 208
+    Top = 80
+    Width = 280
+    Center = True
+    Proportional = True
+  end
+  object Button2: TButton
+    Left = 424
+    Height = 25
+    Top = 80
+    Width = 75
+    Caption = 'Abrir...'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object AbrirImg: TOpenDialog
+    left = 432
+    top = 128
+  end
+end
