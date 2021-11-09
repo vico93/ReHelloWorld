@@ -1,12 +1,12 @@
 object Form1: TForm1
-  Left = 256
+  Left = 254
   Height = 375
-  Top = 145
+  Top = 131
   Width = 599
   Caption = 'Lazarus'
   ClientHeight = 375
   ClientWidth = 599
-  LCLVersion = '2.0.8.0'
+  LCLVersion = '2.0.10.0'
   object Label1: TLabel
     Left = 104
     Height = 65
@@ -50,7 +50,8 @@ object Form1: TForm1
     TabOrder = 1
   end
   object AbrirImg: TOpenDialog
-    left = 432
-    top = 128
+    Filter = 'Imagem PNG|*.png|Imagem JPEG|*.jpg; *.jpeg|Imagem BMP|*.bmp'
+    Left = 432
+    Top = 128
   end
 end
